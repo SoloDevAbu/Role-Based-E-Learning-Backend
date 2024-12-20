@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const adminRouter = require("../backend/routes/admin.route");
-const userRouter = require("../backend/routes/user.route");
-const courseRouter = require("../backend/routes/course.route");
+const adminRouter = require("./routes/admin.route");
+const userRouter = require("./routes/user.route");
+const courseRouter = require("./routes/course.route");
 
 app.use(express.json());
 
