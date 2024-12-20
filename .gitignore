@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 node_modules
+=======
+backend/node_modules
+
+frontend/dist
+backend/dist
+
+frontend/.env
+backend/.env
+>>>>>>> f099308 (Make more structed and fixed bugs)
